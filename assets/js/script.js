@@ -91,7 +91,78 @@ answers: [
     { text: “Majuro”, correct: false},    
     ]
 },
-
+{
+    question: “Jamaica”
+    answers: [
+    { text: "Rabat", correct: false},
+    { text: “Libreville”, correct: false},
+    { text: “Porto-Novo”, correct: false},
+    { text: “Kingston”, correct: true},    
+    ]
+},
+{
+    question: “Chile”
+    answers: [
+    { text: "Lisbon", correct: false},
+    { text: “Santiago”, correct: true},
+    { text: “Kampala”, correct: false},
+    { text: “Montevideo”, correct: false},    
+    ]
+},
+{
+    question: “Sweden”
+    answers: [
+    { text: "Stockholm", correct: true},
+    { text: "Oslo", correct: false},
+    { text: “Helsinki”, correct: false},
+    { text: “Harare”, correct: false},    
+    ]
+},
+{
+    question: “Croatia”
+    answers: [
+        { text: "Algiers", correct: false},
+        { text: “Yerevan”, correct: false},
+        { text: “Tripoli”, correct: false},
+        { text: "Zagreb", correct: true},
+    ]
+},
+{
+    question: “Peru”
+    answers: [
+        { text: "Victoria", correct: false},
+        { text: “Lima”, correct: true},
+        { text: “Managua”, correct: false},
+        { text: "Porto-Novo", correct: true},
+    ]
+},
+{
+    question: “South Korea”
+    answers: [
+        { text: "Suva", correct: false},
+        { text: “Beijing”, correct: false},
+        { text: “Pyongyang”, correct: false},
+        { text: "Seoul", correct: true},
+    ]
+},
+{
+    question: “Saudi Arabia”
+    answers: [
+        { text: "Riyadh", correct: true},
+        { text: “San Salvador”, correct: false},
+        { text: “Damascus”, correct: false},
+        { text: "Beirut", correct: false},
+    ]
+},
+{
+    question: “Australia”
+    answers: [
+        { text: "Lome", correct: false},
+        { text: “Melbourne”, correct: false},
+        { text: “Canberra”, correct: true},
+        { text: "Banjul", correct: false},
+    ]
+},
 
 // array of countries and their capitals 
 
