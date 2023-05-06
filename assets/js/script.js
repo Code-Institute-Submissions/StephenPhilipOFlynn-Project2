@@ -163,6 +163,24 @@ answers: [
         { text: "Banjul", correct: false},
     ]
 },
+{
+    question: “Uganda”
+    answers: [
+        { text: "Kampala", correct: true},
+        { text: “Doha”, correct: false},
+        { text: “Thimphu”, correct: false},
+        { text: "Moroni", correct: false},
+    ]
+},
+{
+    question: “Slovakia”
+    answers: [
+        { text: "Honiara", correct: false},
+        { text: “Malabo”, correct: false},
+        { text: “Prague”, correct: false},
+        { text: "Bratislava", correct: true},
+    ]
+},
 
 // array of countries and their capitals 
 
