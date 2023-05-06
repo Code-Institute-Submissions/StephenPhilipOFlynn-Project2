@@ -181,6 +181,15 @@ answers: [
         { text: "Bratislava", correct: true},
     ]
 },
+{
+    question: “France”
+    answers: [
+        { text: "Berlin", correct: false},
+        { text: “Paris”, correct: true},
+        { text: “Vienna”, correct: false},
+        { text: "Dublin", correct: false},
+    ]
+},
 
 // array of countries and their capitals 
 
