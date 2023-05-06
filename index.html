@@ -14,14 +14,29 @@
     </head>
     <body>
         <div>
-        <h1 class="heading">World Quiz</h1>
+        <h1 class="heading">Capitals of the World!</h1>
         </div>
         <div>
         <h2>What is your name?</h2>
         <input id="userName">
         <button onclick="greeting()">Submit</button>
         </div>
-        <div class="game-area"></div>
+        <div class="app">
+            <h1>Are you ready?</h1>
+            <div class="quiz">
+                <h2 id="question">Question goes here</h2>
+                <div id="answer-buttons">
+                    <button class="btn">Answer 1</button>
+                    <button class="btn">Answer 2</button>
+                    <button class="btn">Answer 3</button>
+                    <button class="btn">Answer 4</button>
+                    
+                </div>
+
+            </div>
+
+
+        </div>
         <div class="score-area">
             <p class="scores">Correct Answers <span id="score">0</span></p>
             <p class="scores">Incorrect Answers<span id="incorrect">0</span></p>
