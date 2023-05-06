@@ -82,6 +82,16 @@ answers: [
     { text: “Tunis”, correct: false},    
     ]
 },
+{
+    question: “Nigeria”
+    answers: [
+    { text: "Nairobi", correct: false},
+    { text: “Abuja”, correct: true},
+    { text: “Conakry”, correct: false},
+    { text: “Majuro”, correct: false},    
+    ]
+},
+
 
 // array of countries and their capitals 
 
