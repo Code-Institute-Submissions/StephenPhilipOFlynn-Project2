@@ -1,4 +1,89 @@
 
+// list of questions
+const questions = [
+{
+question: “Egypt”
+answers: [
+{ text: “Taipei”, correct: false},
+{ text: “Bratislava”, correct: false},
+{ text: “Dakar”, correct: false},
+{ text: "Cairo", correct: true},
+]
+},
+{
+    question: “Iran”
+    answers: [
+    { text: “Tehran”, correct: true},
+    { text: “Beirut”, correct: false},
+    { text: “Islamabad”, correct: false},
+    { text: "Jerusalem", correct: false},
+    ]
+},
+{
+    question: “Kosovo”
+    answers: [
+    { text: “Tehran”, correct: false},
+    { text: “Pristina”, correct: true},
+    { text: “Sofia”, correct: false},
+    { text: "Brussels", correct: false},
+    ]
+},
+{
+    question: “Mauritius”
+    answers: [
+    { text: “Belmopan”, correct: false},
+    { text: “Mogadishu”, correct: false},
+    { text: “Port Louis”, correct: true},
+    { text: "Luanda", correct: false},
+    ]
+},
+{
+    question: “Colombia”
+    answers: [
+    { text: “Havana”, correct: false},
+    { text: “Bogata”, correct: true},
+    { text: “Caracas”, correct: false},
+    { text: "Banjul", correct: false},
+    ]
+},
+{
+    question: “Azerbaijan”
+    answers: [
+    { text: “Baku”, correct: true},
+    { text: “Podgorica”, correct: false},
+    { text: “Belgrade”, correct: false},
+    { text: "Pretoria", correct: false},
+    ]
+},
+{
+    question: “Mongolia”
+    answers: [
+    { text: “Berlin”, correct: false},
+    { text: “Minsk”, correct: false},
+    { text: “Ulaanbaatar”, correct: true},
+    { text: "Amman", correct: false},
+    ]
+},
+{
+    question: “Costa Rica”
+    answers: [
+    { text: “Havana”, correct: false},
+    { text: “Bern”, correct: false},
+    { text: “Port Moresby”, correct: false},
+    { text: "St Jose", correct: true},
+    ]
+},
+{
+    question: “Thailand”
+    answers: [
+    { text: "Bangkok", correct: true},
+    { text: “Yaounde”, correct: false},
+    { text: “Rangoon”, correct: false},
+    { text: “Tunis”, correct: false},    
+    ]
+},
+
+// array of countries and their capitals 
 
 const countries = [
     {name: "Azerbaijan", capital: "Baku"},
