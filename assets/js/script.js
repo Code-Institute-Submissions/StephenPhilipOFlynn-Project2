@@ -197,6 +197,78 @@ const questions = [
         { text: "Dublin", correct: false},
     ],
 },
+{
+    question: "Libya",
+    answers: [
+        { text: "Honiara", correct: false},
+        { text: "Tripoli", correct: true},
+        { text: "Bern", correct: false},
+        { text: "Doha", correct: false},
+    ],
+},
+{
+    question: "Comoros",
+    answers: [
+        { text: "Havana", correct: false},
+        { text: "Port-au-Prince", correct: false},
+        { text: "Port Moresby", correct: false},
+        { text: "Moroni", correct: true},
+    ],
+},
+{
+    question: "Ethiopia",
+    answers: [
+        { text: "Lilongwe", correct: false},
+        { text: "Luanda", correct: false},
+        { text: "Addis Ababa", correct: true},
+        { text: "Valetta", correct: false},
+    ],
+},
+{
+    question: "Niger",
+    answers: [
+        { text: "Lilongwe", correct: false},
+        { text: "Luanda", correct: false},
+        { text: "Yaounde", correct: false},
+        { text: "Niamey", correct: true},
+    ],
+},
+{
+    question: "India",
+    answers: [
+        { text: "New Dehli", correct: true},
+        { text: "Tashkent", correct: false},
+        { text: "Juba", correct: false},
+        { text: "Tirana", correct: false},
+    ],
+},
+{
+    question: "Kazakhstan",
+    answers: [
+        { text: "Bangui", correct: false},
+        { text: "Ljubljana", correct: false},
+        { text: "Astana", correct: true},
+        { text: "Tallinn", correct: false},
+    ],
+},
+{
+    question: "The Bahamas",
+    answers: [
+        { text: "Nassau", correct: true},
+        { text: "Honiara", correct: false},
+        { text: "Sao Tome", correct: false},
+        { text: "Castries", correct: false},
+    ],
+},
+{
+    question: "Hungary",
+    answers: [
+        { text: "Praia", correct: false},
+        { text: "Prague", correct: false},
+        { text: "Tbilisi", correct: false},
+        { text: "Budapest", correct: true},
+    ],
+},
 ]
 
 const questionElement = document.getElementById("question");
@@ -224,6 +296,10 @@ function showQuestion(){
         button.innerHTML = answer.text;
         button.classList.add("btn");
         answerButtons.appendChild(button);
+        if(answer.correct){
+            button.dataset.correct = answer.correct;
+        }
+        button.addEventListener("click", selectAnswer);
     });
 }
 
@@ -232,6 +308,25 @@ function resetState(){
     while(answerButtons.firstChild){
         answerButtons.removeChild(answerButtons.firstChild);
     }
+}
+
+function selectAnswer(){
+    const selectBtn = e.target;
+    const isCorrect = selectedBtn.dataset.correct === "true";
+    if(isCorrect){
+        selectedBtn.classList.add("correct");
+        score++;
+    }else{
+        selectedBtn.classList.add("incorrect");
+    }
+    Array.from(answerButton.children).forEach(button => {
+        if(button.dataset.correct === "true" ){
+            button.classlist.add("correct");
+        }
+        button.disabled = true;
+    });
+    nextButton.style.display = "block";
+
 }
 
 startQuiz();
