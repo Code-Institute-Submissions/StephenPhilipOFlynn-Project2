@@ -2,6 +2,15 @@
 // list of questions
 const questions = [
 {
+question: “Ireland”
+answers: [
+{ text: “Wellington”, correct: false},
+{ text: “Glasgow”, correct: false},
+{ text: “Dublin”, correct: true},
+{ text: "Ottawa", correct: false},
+]
+},
+{
 question: “Egypt”
 answers: [
 { text: “Taipei”, correct: false},
@@ -190,6 +199,7 @@ answers: [
         { text: "Dublin", correct: false},
     ]
 },
+]
 
 // array of countries and their capitals 
 
