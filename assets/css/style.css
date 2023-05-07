@@ -70,3 +70,11 @@ body {
     display: block;
     display: none;
 }
+
+.correct{
+    background: #568203;
+}
+
+.incorrect{
+    background: #c94f1b;
+}
