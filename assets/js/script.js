@@ -269,7 +269,7 @@ const questions = [
         { text: "Budapest", correct: true},
     ],
 },
-]
+];
 
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
@@ -311,7 +311,7 @@ function resetState(){
 }
 
 function selectAnswer(){
-    const selectBtn = e.target;
+    const selectedBtn = e.target;
     const isCorrect = selectedBtn.dataset.correct === "true";
     if(isCorrect){
         selectedBtn.classList.add("correct");
@@ -331,7 +331,7 @@ function selectAnswer(){
 function showScore(){
     resetState();
     questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
-    nextButton.innerHTML = "Play Again"
+    nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
 }
 
@@ -342,8 +342,7 @@ function handleNextButton(){
     }else{
         showScore();
     }
-};
-
+}
 
 nextButton.addEventListener("click", ()=>{
     if(currentQuestionIndex < questions.length){
