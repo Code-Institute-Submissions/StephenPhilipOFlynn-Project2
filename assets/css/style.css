@@ -58,7 +58,7 @@ body {
     color: #fff;
 }
 
-.btn:disabled{
+.btn:disabled {
     cursor: no-drop;
 }
 
@@ -75,10 +75,10 @@ body {
     display: none;
 }
 
-.correct{
+.correct {
     background: #568203;
 }
 
-.incorrect{
+.incorrect {
     background: #c94f1b;
 }
