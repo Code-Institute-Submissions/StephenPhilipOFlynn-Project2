@@ -310,7 +310,7 @@ function resetState(){
     }
 }
 
-function selectAnswer(){
+function selectAnswer(e){
     const selectedBtn = e.target;
     const isCorrect = selectedBtn.dataset.correct === "true";
     if(isCorrect){
@@ -319,7 +319,7 @@ function selectAnswer(){
     }else{
         selectedBtn.classList.add("incorrect");
     }
-    Array.from(answerButton.children).forEach(button => {
+    Array.from(answerButtons.children).forEach(button => {
         if(button.dataset.correct === "true" ){
             button.classlist.add("correct");
         }
