@@ -6,7 +6,7 @@ const questions = [
     { text: "Glasgow", correct: false},
     { text: "Dublin", correct: true},
     { text: "Ottawa", correct: false},
-],
+]
 },
 {
     question: "Egypt",
@@ -15,7 +15,7 @@ const questions = [
     { text: "Bratislava", correct: false},
     { text: "Dakar", correct: false},
     { text: "Cairo", correct: true},
-],
+]
 },
 {
     question: "Iran",
@@ -24,7 +24,7 @@ const questions = [
     { text: "Beirut", correct: false},
     { text: "Islamabad", correct: false},
     { text: "Jerusalem", correct: false},
-    ],
+    ]
 },
 {
     question: "Kosovo",
@@ -33,7 +33,7 @@ const questions = [
     { text: "Pristina", correct: true},
     { text: "Sofia", correct: false},
     { text: "Brussels", correct: false},
-    ],
+    ]
 },
 {
     question: "Mauritius",
@@ -42,7 +42,7 @@ const questions = [
     { text: "Mogadishu", correct: false},
     { text: "Port Louis", correct: true},
     { text: "Luanda", correct: false},
-    ],
+    ]
 },
 {
     question: "Colombia",
@@ -51,7 +51,7 @@ const questions = [
     { text: "Bogata", correct: true},
     { text: "Caracas", correct: false},
     { text: "Banjul", correct: false},
-    ],
+    ]
 },
 {
     question: "Azerbaijan",
@@ -60,7 +60,7 @@ const questions = [
     { text: "Podgorica", correct: false},
     { text: "Belgrade", correct: false},
     { text: "Pretoria", correct: false},
-    ],
+    ]
 },
 {
     question: "Mongolia",
@@ -69,7 +69,7 @@ const questions = [
     { text: "Minsk", correct: false},
     { text: "Ulaanbaatar", correct: true},
     { text: "Amman", correct: false},
-    ],
+    ]
 },
 {
     question: "Costa Rica",
@@ -78,7 +78,7 @@ const questions = [
     { text: "Bern", correct: false},
     { text: "Port Moresby", correct: false},
     { text: "St Jose", correct: true},
-    ],
+    ]
 },
 {
     question: "Thailand",
@@ -87,7 +87,7 @@ const questions = [
     { text: "Yaounde", correct: false},
     { text: "Rangoon", correct: false},
     { text: "Tunis", correct: false},    
-    ],
+    ]
 },
 {
     question: "Nigeria",
@@ -96,7 +96,7 @@ const questions = [
     { text: "Abuja", correct: true},
     { text: "Conakry", correct: false},
     { text: "Majuro", correct: false},    
-    ],
+    ]
 },
 {
     question: "Jamaica",
@@ -105,7 +105,7 @@ const questions = [
     { text: "Libreville", correct: false},
     { text: "Porto-Novo", correct: false},
     { text: "Kingston", correct: true},    
-    ],
+    ]
 },
 {
     question: "Chile",
@@ -114,7 +114,7 @@ const questions = [
     { text: "Santiago", correct: true},
     { text: "Kampala", correct: false},
     { text: "Montevideo", correct: false},    
-    ],
+    ]
 },
 {
     question: "Sweden",
@@ -123,7 +123,7 @@ const questions = [
     { text: "Oslo", correct: false},
     { text: "Helsinki", correct: false},
     { text: "Harare", correct: false},    
-    ],
+    ]
 },
 {
     question: "Croatia",
@@ -132,7 +132,7 @@ const questions = [
         { text: "Yerevan", correct: false},
         { text: "Tripoli", correct: false},
         { text: "Zagreb", correct: true},
-    ],
+    ]
 },
 {
     question: "Peru",
@@ -140,8 +140,8 @@ const questions = [
         { text: "Victoria", correct: false},
         { text: "Lima", correct: true},
         { text: "Managua", correct: false},
-        { text: "Porto-Novo", correct: true},
-    ],
+        { text: "Porto-Novo", correct: false},
+    ]
 },
 {
     question: "South Korea",
@@ -150,7 +150,7 @@ const questions = [
         { text: "Beijing", correct: false},
         { text: "Pyongyang", correct: false},
         { text: "Seoul", correct: true},
-    ],
+    ]
 },
 {
     question: "Saudi Arabia",
@@ -159,7 +159,7 @@ const questions = [
         { text: "San Salvador", correct: false},
         { text: "Damascus", correct: false},
         { text: "Beirut", correct: false},
-    ],
+    ]
 },
 {
     question: "Australia",
@@ -168,7 +168,7 @@ const questions = [
         { text: "Melbourne", correct: false},
         { text: "Canberra", correct: true},
         { text: "Banjul", correct: false},
-    ],
+    ]
 },
 {
     question: "Uganda",
@@ -177,7 +177,7 @@ const questions = [
         { text: "Doha", correct: false},
         { text: "Thimphu", correct: false},
         { text: "Moroni", correct: false},
-    ],
+    ]
 },
 {
     question: "Slovakia",
@@ -186,7 +186,7 @@ const questions = [
         { text: "Malabo", correct: false},
         { text: "Prague", correct: false},
         { text: "Bratislava", correct: true},
-    ],
+    ]
 },
 {
     question: "France",
@@ -195,7 +195,7 @@ const questions = [
         { text: "Paris", correct: true},
         { text: "Vienna", correct: false},
         { text: "Dublin", correct: false},
-    ],
+    ]
 },
 {
     question: "Libya",
@@ -204,7 +204,7 @@ const questions = [
         { text: "Tripoli", correct: true},
         { text: "Bern", correct: false},
         { text: "Doha", correct: false},
-    ],
+    ]
 },
 {
     question: "Comoros",
@@ -213,7 +213,7 @@ const questions = [
         { text: "Port-au-Prince", correct: false},
         { text: "Port Moresby", correct: false},
         { text: "Moroni", correct: true},
-    ],
+    ]
 },
 {
     question: "Ethiopia",
@@ -222,7 +222,7 @@ const questions = [
         { text: "Luanda", correct: false},
         { text: "Addis Ababa", correct: true},
         { text: "Valetta", correct: false},
-    ],
+    ]
 },
 {
     question: "Niger",
@@ -231,7 +231,7 @@ const questions = [
         { text: "Luanda", correct: false},
         { text: "Yaounde", correct: false},
         { text: "Niamey", correct: true},
-    ],
+    ]
 },
 {
     question: "India",
@@ -240,7 +240,7 @@ const questions = [
         { text: "Tashkent", correct: false},
         { text: "Juba", correct: false},
         { text: "Tirana", correct: false},
-    ],
+    ]
 },
 {
     question: "Kazakhstan",
@@ -249,7 +249,7 @@ const questions = [
         { text: "Ljubljana", correct: false},
         { text: "Astana", correct: true},
         { text: "Tallinn", correct: false},
-    ],
+    ]
 },
 {
     question: "The Bahamas",
@@ -258,7 +258,7 @@ const questions = [
         { text: "Honiara", correct: false},
         { text: "Sao Tome", correct: false},
         { text: "Castries", correct: false},
-    ],
+    ]
 },
 {
     question: "Hungary",
@@ -267,7 +267,7 @@ const questions = [
         { text: "Prague", correct: false},
         { text: "Tbilisi", correct: false},
         { text: "Budapest", correct: true},
-    ],
+    ]
 },
 ];
 
@@ -321,7 +321,7 @@ function selectAnswer(e){
     }
     Array.from(answerButtons.children).forEach(button => {
         if(button.dataset.correct === "true" ){
-            button.classlist.add("correct");
+            button.classList.add("correct");
         }
         button.disabled = true;
     });
