@@ -82,3 +82,10 @@ body {
 .incorrect {
     background: #c94f1b;
 }
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0;
+}
