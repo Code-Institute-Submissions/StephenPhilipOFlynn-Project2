@@ -5,11 +5,31 @@
     box-sizing: border-box;
 }
 
-
 body {
     background: darkslategrey;
     font-family: urbanist;
     color:aliceblue;
+}
+
+.heading {
+    margin-left: 20px;
+}
+
+.nameinput {
+    margin-left: 20px;
+}
+
+#userName {
+    border-radius: 4px;
+}
+
+#usernamebutton {
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
 }
 
 .app {
@@ -90,6 +110,9 @@ body {
     column-gap: 0;
 }
 
+#photos > img {
+    width: 100%;
+}
 
 @media screen and (max width: 800px) {
     #photos {
