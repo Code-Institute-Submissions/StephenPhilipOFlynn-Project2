@@ -118,3 +118,16 @@ body {
 #photos > img {
     width: 100%
 }
+
+#photoslower {
+    clear: both;
+    line-height: 0;
+    max-width: 100%;
+    line-height: 0;
+    column-count: 5;
+    column-gap: 0;
+}
+
+#photoslower > img {
+    width: 100%;
+}
