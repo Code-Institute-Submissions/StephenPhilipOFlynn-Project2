@@ -13,10 +13,12 @@ body {
 
 .heading {
     margin-left: 20px;
+    text-align: center;
 }
 
 .nameinput {
     margin-left: 20px;
+    text-align: center;
 }
 
 #userName {
@@ -106,12 +108,13 @@ body {
 #photos {
     clear: both;
     line-height: 0;
+    max-width: 100%;
+    line-height: 0;
     column-count: 10;
     column-gap: 0;
-    max-width: 100%;
 }
+
 
 #photos > img {
-    width: 100%;
+    width: 100%
 }
-
