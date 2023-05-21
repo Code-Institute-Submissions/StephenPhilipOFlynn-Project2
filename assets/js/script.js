@@ -244,9 +244,9 @@ const questions = [
     question: "India",
     answers: [
         { text: "New Dehli", correct: true},
-        { text: "Tashkent", correct: false},
+        { text: "Islamabad", correct: false},
         { text: "Juba", correct: false},
-        { text: "Tirana", correct: false},
+        { text: "Mumbai", correct: false},
     ]
 },
 {
