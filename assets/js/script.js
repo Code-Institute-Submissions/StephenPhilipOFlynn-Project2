@@ -201,7 +201,7 @@ const questions = [
         { text: "Berlin", correct: false},
         { text: "Paris", correct: true},
         { text: "Vienna", correct: false},
-        { text: "Dublin", correct: false},
+        { text: "Lyon", correct: false},
     ]
 },
 {
