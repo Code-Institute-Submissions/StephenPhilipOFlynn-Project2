@@ -18,11 +18,10 @@ body {
 }
 
 .nameinput {
-    margin-left: 20px;
     text-align: center;
 }
 
-#userName {
+#whatsYourName {
     border-radius: 4px;
 }
 

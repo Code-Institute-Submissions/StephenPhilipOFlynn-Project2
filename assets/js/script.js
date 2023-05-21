@@ -1,3 +1,10 @@
+function welcomeMessage() {
+    let whatsYourName = document.querySelector("#whatsYourName")
+    let message = document.querySelector("#message");
+    
+    message.innerHTML = "Welcome " + whatsYourName.value;
+}
+
 const questions = [
     {
     question: "Ireland",
