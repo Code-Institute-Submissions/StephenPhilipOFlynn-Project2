@@ -1,9 +1,13 @@
+// User inputs username onclick in html file
+
 function welcomeMessage() {
     let whatsYourName = document.querySelector("#whatsYourName")
     let message = document.querySelector("#message");
     
     message.innerHTML = "Welcome " + whatsYourName.value + "!";
 }
+
+// array of questions
 
 const questions = [
     {
@@ -292,6 +296,8 @@ function startQuiz(){
     showQuestion();
 }
 
+// show questions
+
 function showQuestion(){
     resetState();
     let currentQuestion = questions[currentQuestionIndex];
@@ -317,6 +323,8 @@ function resetState(){
     }
 }
 
+// confirm correct or incorrect answer
+
 function selectAnswer(e){
     const selectedBtn = e.target;
     const isCorrect = selectedBtn.dataset.correct === "true";
@@ -334,6 +342,8 @@ function selectAnswer(e){
     });
     nextButton.style.display = "block";
 }
+
+// show score at quiz end
 
 function showScore(){
     resetState();

@@ -1,108 +1,68 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Project 2
 
-Welcome Stephen OFlynn,
+This project was inspired by a conversation with my friend’s 7-year-old son, who is interested in remembering obscure capital cities from all countries in the world.
+The website provides a multiple-choice question game which will educate the user on some capital cities they may not be familiar with. The aim is for this quiz website to be fun, interactive and educational, while giving the user immediate feedback. The website is intended to work equally well on desktop, ipad or on mobile screen.
+My original plan was to have an array with 100 countries, which would select the right country and randomly 3 alternative capitals from the array. However, I was unable to programme this on this occasion, but would look to make this amendment on future iterations of the website. Instead, there is a fixed set of 30 questions, with several questions people from a European background may find slightly easier. This is mixed with questions from possibly less well-known capitals. On average the questions get slightly harder as the quiz continues.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Features
+HTML & CSS – 20 pictures taken from capital cities will feature either side of the quiz area to improve the appearance of the webpage. The feedback from users has been that this adds colour and vibrancy. The website has a heading using the Urbanist google font which introduces the theme.
+The background dark green colour for the website contrasts with the white text so that it is easily read by the user. For the quiz area, the dark green and black fonts contrast against the white background, so that the text is clear to read.
+Mock social media logos appear at the foot of the website, if the website were to be promoted via social media (eg similar to how such links are provided on reference website, freerice.com).
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Javascript features 
 
-## Gitpod Reminders
+Name Input – the User will have the ability to add their name into a form, and click submit, which will then return a welcome message including their name.
+Quiz - The core functionality is a 30 question multi-choice quiz. The user is told before starting the quiz that there are 30 questions in the quiz. This manages the users time expectations.
+After each question is input, the right answer will flash green. If a wrong answer is selected it will flash red, and the correct answer (not selected) will flash in green. Only one answer can be selected for each question, before pressing the next button which runs the function to display the next question.
+After the quiz is completed, the correct answers are totalled, to give the user’s score out of 30 and the user is informed of their total score (for example - 25 out of 30).  Following completion of the quiz a button appears with the option to play the quiz again.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Testing
 
-`python3 -m http.server`
+I have manually tested the quiz several times to ensure that the right answer and wrong answer are being displayed correctly. This was for example useful when at one question it was noted that it created gave two right answers instead of just one.
+I have also listened to feedback to have easier questions to give people some positive starter questions, but to have more deceptive & tough questions midway and towards the end of the quiz. On a few questions, alternative cities within that country rather than alternative capitals have been used to provide some difficulty.
+The website has been reviewed on mobile app, ipad and desktop level, and the elements seem to work appropriately at all levels.
 
-A blue button should appear to click: _Make Public_,
+Validation
 
-Another blue button should appear to click: _Open Browser_.
+CSS – the Website was checked on 21 May 2023 with no CSS validation errors.
+https://jigsaw.w3.org/css-validator/
+The HTML was check on the 22 May 2023 with no HTML errors.
+https://validator.w3.org/
+The Javascript was reviewed on 22 May 2023 with no errors.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Development
+1. I have uploaded three pictures to show development stages. Picture_1 where the next button was not displaying correctly. This was due to typo in the javascript, that meant the function to display the next button was not called correctly.
+2. Picture_2 shows early development of the presentation of the website - with large pictures dominating the quiz area.
+3. Picture_3 shows formatting issues at mobile phone level, tightening the gap between elements.
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+Deployment
+The site was deployed to GitHub pages on 22 May 2023.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Credits
+Inspiration
+Jack Kearney for his youthful obsession with capital cities.
+CSS Colour Palette Inspiration – https://cssgradient.io/shades-of-green/
+CSS Validation - https://jigsaw.w3.org/css-validator/
+Checking JavaScript Code - https://jshint.com/
+The icons in the footer were taken from Font Awesome
+Love Maths Project, CodeInstitute for guidance on Game area structures
+Love Running project, CodeInstitute – regarding guidance on mock social media links and picture columns
+Capital city names for inspiration for multiple choice questions
+https://www.generatormix.com/random-capital-city-generator 
+Guidance on name input area. User Input and Response on a webpage using JavaScript
+https://www.youtube.com/watch?v=KB6Yg5hNrqc
+How to Make Quiz App Using Javascript / Build Quiz App with HTML CSS & Javascript
+https://www.youtube.com/watch?v=PBcqGxrr9g8
+I am particularly grateful to this video for guiding in how to create the core quiz functionality for me to amend to my particular goals in this project. It is noted that the uploader of the video expressly suggests in the video blurb that this template is amendable for student and college projects. 
+Building a Multiple-Choice Quiz
+https://www.youtube.com/watch?v=LQGTb112N_c
+Make a simple quiz webpage using HMTL and JS
+https://www.youtube.com/watch?v=79WRPIknVHs
+10 pictures of capital cities from istockphoto.com under free trial
+https://www.istockphoto.com/
+10 pictures of capital cities from shutterstock under free trial.
+https://www.shutterstock.com/
+For developing my own interest in online general knowledge quizzes
+https://play.freerice.com/categories/
 
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
