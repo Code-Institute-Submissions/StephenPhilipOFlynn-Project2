@@ -37,6 +37,7 @@ body {
     border-radius: 4px;
     cursor: pointer;
     transition: all 0.3s;
+    padding: 0 4px 0 4px;
 }
 
 /* quiz area style */
